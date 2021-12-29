@@ -1,0 +1,121 @@
+
+img {
+    width: 100%
+}
+
+body {
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    flex: 1;
+    display: flex;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.header-links ul {
+    display: flex;
+    gap: 8px;
+
+}
+
+li.header-link {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.btn-blue {
+    background-color: #3b82f6;
+    border: 2px solid #fff;
+    color: #fff;
+    padding: 6px;
+}
+
+.dark-bg {
+    background-color: #1f2937;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 3rem;
+}
+
+/* .dark-bg .box-1 {
+    display: flex;
+    flex-direction: column;
+
+} */
+
+.gray-bg {
+    background-color: #e5e5e5;
+    color: #444;;
+}
+
+.blue-bg {
+    background-color: #3b82f6;
+    color: #fff;
+}
+
+[class*="blue-box-"] {
+    border: 3px solid rgb(17, 17, 102);
+}
+
+.rounded-edges {
+    border-radius: 8px;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.flex-item {
+    flex: 1;
+}
+
+.blue-box-1 {
+    background-image: url(/images/lala.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    min-height: 400px;
+}
+.blue-box-2 {
+    background-image: url(/images/sunset.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    min-height: 400px;
+}
+.blue-box-3 {
+    background-image: url(/images/seo.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    min-height: 400px;
+}
+.blue-box-4 {
+    background-image: url(/images/social.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    min-height: 400px;
+}
+
+footer {
+    background-color: #1f2937;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
